@@ -1,0 +1,27 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonmnari/Task-Manager-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonmnari/Task-Manager-API/issues"
+  },
+  "homepage": "https://github.com/nelsonmnari/Task-Manager-API#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
